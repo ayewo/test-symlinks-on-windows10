@@ -22,7 +22,7 @@ notepad pet.txt
 ```
 
 ## Further Reading
-This excellent wiki article on [Symbolic Links](https://github.com/git-for-windows/git/wiki/Symbolic-Links) by the Git Bash project contains:
+This excellent wiki article by the [Git for Windows](gitforwindows.org/) project on [Symbolic Links](https://github.com/git-for-windows/git/wiki/Symbolic-Links) contains:
 * a [concise history](https://github.com/git-for-windows/git/wiki/Symbolic-Links#background) of which editions of Windows supports symbolic links;
 * [the (two) types of symbolic links](https://github.com/git-for-windows/git/wiki/Symbolic-Links#creating-symbolic-links) that can be created (directory and file symbolic links);
 * and the (four) ways of granting a user the ability to create symbolic links (i.e. via `gpedit.msc`, `secpol.msc`, [`polseditx64.exe`](https://www.southsoftware.com/polsedit.html) or by enabling [Developer Mode](https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development)).
