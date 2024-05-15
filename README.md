@@ -21,3 +21,7 @@ type pet.txt
 notepad pet.txt
 ```
 
+## Further Reading
+This excellent wiki article on [Symbolic Links](https://github.com/git-for-windows/git/wiki/Symbolic-Links) by the Git Bash project contains a [concise history](https://github.com/git-for-windows/git/wiki/Symbolic-Links#background) of which editions of Windows supports symbolic links; [the (two) types of symbolic links](https://github.com/git-for-windows/git/wiki/Symbolic-Links#creating-symbolic-links) that can be created (directory and file symbolic links); and the (four) ways of granting a user the ability to create symbolic links (i.e. via `gpedit.msc`, `secpol.msc`, [`polseditx64.exe`](https://www.southsoftware.com/polsedit.html) or by enabling [Developer Mode](https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development)).
+
+It also links to a 2016 blog post: *[Symlinks in Windows 10!](https://blogs.windows.com/windowsdeveloper/2016/12/02/symlinks-windows-10/)* explaining what motivated the addition of symlinks to Windows.
