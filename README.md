@@ -1,5 +1,5 @@
 # Intro
-This repo is for testing whether symlinks can be created when Developer Mode is enabled on Windows 10 Pro
+This repo is for testing whether symlinks can be created when _Developer Mode_ is enabled on Windows 10 Pro
 
 ## Testing
 Test that you can create symlinks without admin privileges as per the announcement for [Symlinks in Windows 10](https://blogs.windows.com/windowsdeveloper/2016/12/02/symlinks-windows-10/):
@@ -19,6 +19,12 @@ dir
 type pet.txt
 
 notepad pet.txt
+```
+
+On a machine without _Developer Mode_ enabled, the `mklink` command 'll raise the following error message:
+```bash
+C:\Users\dev\Downloads\test-symlinks-on-windows10>mklink pet.txt animals\dog.txt
+You do not have sufficient privilege to perform this operation.
 ```
 
 ## Further Reading
